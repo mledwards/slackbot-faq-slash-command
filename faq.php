@@ -31,5 +31,5 @@
     }
   # or inform the user nothing was matched
   } else if ((sizeof($results) === 0)) {
-    echo "We couldn't find a part of the guide related to this search :disappointed:";
+    echo "We couldn't find a part of the guide related to the search *" . $text . "* :disappointed:";
   }
