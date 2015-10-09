@@ -1,7 +1,10 @@
 <?php
 
+  # Set up slash command
+  # https://YOURCOMPANYHERE.slack.com/services/new/slash-commands
+
   # Grab the Slack post variables
-  $token = ($_POST['token'] === 'CxPDeOTKKscdX6nkTi3lOn1d' ? $_POST['token'] : false); # Replace with the token from your slash command config
+  $token = ($_POST['token'] === 'YOURTOKENHERE' ? $_POST['token'] : false); # Replace with the token from your slash command config
   $channel = $_POST['channel_name'];
   $text = $_POST['text'];
   
