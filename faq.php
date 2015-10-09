@@ -19,7 +19,8 @@
 
   # Check if the user's text has partially matched any of the FAQ keys
   foreach ($faq as $key => $value) {
-    if (strpos(strtolower($key), strtolower($text)) !== false) {
+
+    if (stripos($text, $key) !== false) {
       $results[] = "*" . $key . "*\n\n" . $value . "\n\n";
     }
   }
