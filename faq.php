@@ -11,12 +11,10 @@
    die($msg);
   }
 
-
   # Set up Frequently Asked Question (FAQ) array
   $faq = [
-    "Company information" => "Here is some information about our company...",
-    "Contact details" => "Here are the contact details for our company...",
-    "MORE HERE" => "..."
+    "company information" => "Here is some information about our company...",
+    "contact" => "Here are the contact details for our company...",
   ];
 
   # Check if the user's text has partially matched any of the FAQ keys
