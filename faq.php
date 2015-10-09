@@ -9,11 +9,6 @@
   if(!$token){
    $msg = "This token doesn't match the slack command set up.";
    die($msg);
-   echo $msg;
-  } else if ($channel && $channel !== 'directmessage') { # Remove if you'd like the guide availabel everywhere
-   $msg = "You cannot query the guide in channels, it would make them too busy.";
-   die($msg);
-   echo $msg; 
   }
 
 
