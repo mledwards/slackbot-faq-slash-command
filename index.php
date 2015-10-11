@@ -2,6 +2,8 @@
 
   # Set up slash command
   # https://YOURCOMPANYHERE.slack.com/services/new/slash-commands
+  
+  # Upload this script to the URL you entered in the link above
 
   # Grab the Slack post variables
   $token = ($_POST['token'] === 'YOURTOKENHERE' ? $_POST['token'] : false); # Replace with the token from your slash command config
